@@ -1,0 +1,21 @@
+{
+"compilerOptions": {
+  "target": "ES6",
+  "module": "commonjs",
+  "outDir": "lib",
+  "jsx": "react",
+  "lib": [ "es2015" ],
+  "locale": "en",
+  "moduleResolution": "node",
+  "declaration": false,
+  "noImplicitAny": false,
+  "removeComments": true,
+  "noLib": false
+},
+"include": [
+  "src/**/*"
+],
+"exclude": [
+  "node_modules",
+  "**/*.spec.ts"
+]}
